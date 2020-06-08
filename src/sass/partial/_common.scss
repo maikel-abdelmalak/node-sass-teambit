@@ -1,5 +1,35 @@
+body{
+    color: $font-color;
+    font-family: $font-family;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: $font-color;
+}
+
 .container{
     width: 70%;
     height: 100%;
     margin: auto;
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid $button-blue;
+    background-color: #fff;
+    &:hover{
+        color: #fff;
+        background-color: $button-blue;
+    }
 }
