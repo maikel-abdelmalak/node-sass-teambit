@@ -1,0 +1,32 @@
+#jumbotron{
+    padding: 130px 0 100px;
+    .left, .right{
+        @include float(50%, left);
+    }
+    h1{
+        font-size: 56px;
+    }
+    p{
+        font-size: 25px;
+    }
+    span{
+        margin: 0 10px;
+    }
+
+
+}
+
+#mail{
+    margin-top: 20px;
+    font-size: 16px;
+    i{
+        vertical-align:middle;
+        margin-left: 5px;
+
+    }
+}
+
+#jumbo-img img{
+    width: 550px;
+    margin: 40px 20px;
+}

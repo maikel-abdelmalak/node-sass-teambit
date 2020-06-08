@@ -18,18 +18,37 @@ a{
 }
 
 .container{
-    width: 70%;
+    width: 75%;
     height: 100%;
     margin: auto;
 }
 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 button{
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px;
     border: 1px solid $button-blue;
     background-color: #fff;
     &:hover{
         color: #fff;
         background-color: $button-blue;
     }
+}
+
+.colored-button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: $button-blue;
+    &:hover{
+        background-color: $button-hover;
+    }
+}
+
+button i {
+    margin-right: 10px;
 }

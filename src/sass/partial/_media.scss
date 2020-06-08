@@ -1,0 +1,12 @@
+@media all and (max-width:1170px){
+    #jumbotron .left, #jumbotron .right{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width:720px){
+    header ul{
+        display: none;
+    }
+}

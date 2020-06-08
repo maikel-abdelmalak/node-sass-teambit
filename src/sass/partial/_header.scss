@@ -3,6 +3,8 @@ header{
     height: 70px;
     position: fixed;
     top: 0;
+    z-index: 22;
+    background: #fff;
     .container{
         @include flex(center, space-between);
         border-bottom: 1px solid $font-color;
@@ -12,8 +14,4 @@ header{
         }
     }
 
-}
-
-.fa-google{
-    margin-right: 5px;
 }
