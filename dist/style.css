@@ -6760,6 +6760,37 @@ header .container ul li a {
   float: right;
 }
 
+#get-started {
+  background-color: #ffe7d2;
+  text-align: center;
+}
+#get-started h2 {
+  font-size: 35px;
+}
+#get-started .alex {
+  position: relative;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 30px 40px;
+  border: 1px solid #58402c;
+  border-radius: 5px;
+}
+#get-started .alex .virgolette {
+  background-image: url(https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -21px;
+  left: -1px;
+}
+#get-started .alex p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
 @media all and (max-width: 1170px) {
   #jumbotron .left, #jumbotron .right {
     width: 100%;
