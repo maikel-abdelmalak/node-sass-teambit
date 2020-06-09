@@ -6,7 +6,10 @@ $fa-font-path: 'fontawesome/fonts';
 
 @import 'partial/_normalize';
 @import 'partial/_variabili';
+@import 'partial/_mixin';
+@import 'partial/_12bool';
 @import 'partial/_common';
 @import 'partial/_header';
 @import "partial/_jumbotron";
+@import "partial/_main";
 @import "partial/_media";

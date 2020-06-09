@@ -1,15 +1,5 @@
-@mixin flex ($align-items, $justify-content){
-    display: flex;
-    justify-content: $justify-content;
-    align-items: $align-items;
-}
-
-@mixin float ($width, $position){
-    float: $position;
-    width: $width;
-}
-
-
+$primary-color:#fff;
+$secondary-color: #ffe7d2;
 $font-color: #58402c;
 $font-family: 'Source Sans Pro','sans-serif';
 $button-blue: #30488f;
