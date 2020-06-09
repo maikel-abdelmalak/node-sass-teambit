@@ -34,6 +34,9 @@
 }
 
 #slides{
+    padding-bottom: 0; 
+    .slide-container{
+        padding-bottom: 70px;
     .slide{
         width: 50%;
         img{
@@ -41,7 +44,7 @@
         }
     }
     .slide-title{
-        margin-left: 30px;
+        margin: 0 30px;
         width: 25%;
         h2{
             font-size: 35px;
@@ -71,4 +74,4 @@
         float: right;
     }
 
-}
+}}

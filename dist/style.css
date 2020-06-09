@@ -6717,40 +6717,46 @@ header .container ul li a {
   width: 100%;
 }
 
-#slides .slide {
+#slides {
+  padding-bottom: 0;
+}
+#slides .slide-container {
+  padding-bottom: 70px;
+}
+#slides .slide-container .slide {
   width: 50%;
 }
-#slides .slide img {
+#slides .slide-container .slide img {
   width: 100%;
 }
-#slides .slide-title {
-  margin-left: 30px;
+#slides .slide-container .slide-title {
+  margin: 0 30px;
   width: 25%;
 }
-#slides .slide-title h2 {
+#slides .slide-container .slide-title h2 {
   font-size: 35px;
   margin: 40px 0;
 }
-#slides .slide-title p {
+#slides .slide-container .slide-title p {
   font-size: 20px;
   margin-bottom: 50px;
 }
-#slides .slide-title a {
+#slides .slide-container .slide-title a {
   font-size: 22px;
   color: #30488f;
 }
-#slides .slide-title a i {
+#slides .slide-container .slide-title a i {
   margin-left: 10px;
   vertical-align: middle;
 }
-#slides .slide-title .img-t img {
+#slides .slide-container .slide-title .img-t img {
   margin-top: 50px;
   width: 100%;
 }
-#slides .left {
+#slides .slide-container .left {
   float: left;
 }
-#slides .right {
+#slides .slide-container .right {
   float: right;
 }
 
