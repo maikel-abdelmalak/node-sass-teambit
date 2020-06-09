@@ -6685,24 +6685,6 @@ header .container ul li a {
   margin: 40px 20px;
 }
 
-.small-img div {
-  padding: 50px;
-}
-.small-img div img {
-  max-width: 100%;
-  height: 110px;
-}
-.small-img div p {
-  margin-top: 20px;
-}
-
-.big-img div {
-  padding: 40px 0 20px;
-}
-.big-img div img {
-  width: 100%;
-}
-
 #traditional {
   padding-bottom: 0;
   background-color: #ffe7d2;
@@ -6717,6 +6699,59 @@ header .container ul li a {
 }
 #traditional .container h2:last-child {
   margin-top: 50px;
+}
+#traditional .small-img div {
+  padding: 50px;
+}
+#traditional .small-img div img {
+  max-width: 100%;
+  height: 110px;
+}
+#traditional .small-img div p {
+  margin-top: 20px;
+}
+#traditional .big-img div {
+  padding: 40px 0 20px;
+}
+#traditional .big-img div img {
+  width: 100%;
+}
+
+#slides .slide {
+  width: 50%;
+}
+#slides .slide img {
+  width: 100%;
+}
+#slides .slide-title {
+  margin-left: 30px;
+  width: 25%;
+}
+#slides .slide-title h2 {
+  font-size: 35px;
+  margin: 40px 0;
+}
+#slides .slide-title p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#slides .slide-title a {
+  font-size: 22px;
+  color: #30488f;
+}
+#slides .slide-title a i {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+#slides .slide-title .img-t img {
+  margin-top: 50px;
+  width: 100%;
+}
+#slides .left {
+  float: left;
+}
+#slides .right {
+  float: right;
 }
 
 @media all and (max-width: 1170px) {
