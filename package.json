@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/maikel-abdelmalak/node-sass-teambit#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.4",
     "resolve-url-loader": "^3.1.0",
